@@ -1,4 +1,4 @@
-<h1>Users</h1>
+<h1 style="text-align:center">Users</h1>
 <form action="" method="post">
   <div class="form-group">
     <label>Email address</label>

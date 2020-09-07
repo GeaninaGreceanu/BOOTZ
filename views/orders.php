@@ -10,8 +10,7 @@ $model = $userController->getAllData();
 $data = $model->getUsers();
 ?>
 
-
-<h1>Orders</h1>
+<h1 style="text-align:center">Orders</h1>
 
 <form action="" method="post">
   <div class="form-group">

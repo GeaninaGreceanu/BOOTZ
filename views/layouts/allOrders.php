@@ -8,6 +8,7 @@ $data = $orderModel->getOrders();
 $items = $controller->getOrderItems();
 ?>
 
+<h3 style="text-align:center;margin:5% 0 3% 0">Orders</h3>
 <table class="table table-striped">
     <thead>
         <tr>
@@ -32,7 +33,8 @@ $items = $controller->getOrderItems();
     <?php endforeach; ?>
     
 </table>
-<br/>
+
+<h3 style="text-align:center; margin:5% 0 3% 0">Orders Items</h3>
 <table class="table table-striped">
     <thead>
         <tr>

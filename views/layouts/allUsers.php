@@ -7,6 +7,7 @@
     $data = $model->getUsers();
 ?>
 
+<h3 style="text-align:center; margin:5% 0 3% 0">Users List</h3>
 <table class="table table-striped">
     <thead>
         <tr>

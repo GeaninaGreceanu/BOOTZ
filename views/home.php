@@ -6,7 +6,7 @@ $controller = new HomeController();
 [$stats1, $stats2] = $controller->getAllData();
 ?>
 
-<h1>Home</h1>
+
 <html>
 
 <head>
@@ -69,9 +69,9 @@ $controller = new HomeController();
 </head>
 
 <body>
-
-    <div id="curve_chart"></div>
-    <div id="chart_div"></div>
+    <h1 style="text-align:center">Home</h1>
+    <div id="curve_chart" style="margin-top:5%"></div>
+    <div id="chart_div" style="margin-top:8%"></div>
 
 </body>
 
